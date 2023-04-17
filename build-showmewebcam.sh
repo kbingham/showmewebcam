@@ -15,11 +15,13 @@ case "$BOARDNAME" in
   ;;
   raspberrypi0w)
   ;;
+  raspberrypizero2w)
+  ;;
   raspberrypi4)
   ;;
   *)
     echo "usage: BUILDROOT_DIR=buildroot $0 (boardname)"
-    echo "boardname: raspberrypi0, raspberrypi0w, raspberrypi4"
+    echo "boardname: raspberrypi0, raspberrypi0w, raspberrypizero2w, raspberrypi4"
     exit 1
   ;;
 esac
